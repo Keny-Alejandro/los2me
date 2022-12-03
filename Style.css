@@ -1,0 +1,40 @@
+.intro {
+	text-align:center;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	color: #17A465;
+	background: white;
+	margin: 6em;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.botones{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.botones a {
+	margin: 0 50px;
+	position: relative;
+	padding: 10px 20px;
+	font-size: 15px;
+	border: none;
+	background: white;
+	color: #17A465;
+	letter-spacing: 1px;
+	cursor: pointer;
+	overflow: hidden;
+	transition: .3s;
+}
+
+.botones a:hover {
+	color: white;
+	background: #17A465;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+}

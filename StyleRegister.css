@@ -1,0 +1,100 @@
+body {
+	font-family: Tahoma, sans-serif;
+	background-color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.contenedor{
+	width: 100%;
+	padding: 15px;
+}
+
+.formulario{
+	background: white;
+	padding: 3px;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"]{
+	font-size: 20px;
+	width: 100%;
+	padding: 10px;
+	border-color: black;
+}
+
+.input-contenedor{
+	margin-bottom: 15px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	width: 250px;
+	height: 250px;
+}
+
+.button{
+	margin: 0 140px;
+	position: relative;
+	padding: 10px 20px;
+	font-size: 15px;
+	border: none;
+	background: white;
+	color: #17A465;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	overflow: hidden;
+	transition: .3s;
+}
+
+.button:hover {
+	color: white;
+	background: #17A465;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+}
+
+p{
+	text-align: center;
+}
+
+h6{
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	color: #17A465;
+	font-weight: 600;
+}
+
+.input-contenedor img{
+	
+	margin: -35px 430px;
+	display: flex;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	
+}
+
+@media(min-width:768px)
+{
+	.formulario{
+		margin: auto;
+		width: 500px;
+		border-radius: 2%;
+}
+}
